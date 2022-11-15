@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+}
+
+.image{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+.image .imagem{
+    height: 90%;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 50vw;
+}
+
+.login .logo{
+    display: block;
+    margin: auto;
+    width: 250px;
+    padding: 60px 0;
+}
+
+.login .logo:hover{
+    cursor: pointer;
+}
+
+input{
+    width: 350px;
+    height: 40px;
+    margin: 4px 50px;
+    border: 1px rgba(0, 0, 0, 0.199) solid;
+    padding: 0 15px;
+}
+
+button{
+    width: 385px;
+    height: 40px;
+    display: block;
+    justify-content: center;
+    margin: 15px 50px;
+    border-radius: 5px;
+    background-color: #B2DFFC;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+}
+
+button:hover{
+    background-color: #0095F6;
+    cursor: pointer;
+    transition: all 500ms ease;
+    border: 0.5mm;
+}
+
+.mid p{
+    padding: 10px 0;
+    letter-spacing: 1px;
+}
+
+.mid .face{
+    color: #385185;
+    font-weight: bold;
+}
+
+.mid .face:hover{
+    cursor: pointer;
+}
+
+.mid .senha{
+    font-size: 14px;
+    color: #004b7e;
+}
+
+.mid .senha:hover{
+    cursor: pointer;
+}
+
+span{
+    color: #0095F6;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+span:hover{
+    cursor: pointer;
+}
+
+.conta{
+    padding: 30px 0;
+    margin: 20px 0;
+    border: 1px rgba(0, 0, 0, 0.158) solid;
+}
+
+
+
+.login .senha{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.cabeca{
+    border: 1px rgb(0, 0, 0, 0.158) solid;
+}
+
+.login p{
+    text-align: center;
+}
+
+.obtenha{
+    margin: auto;
+    padding: 15px 0;
+    margin: 10px 0;
+}
+
+.disponiveis{
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.disponiveis img{
+    width: 150px;
+}
+
+.disponiveis img:hover{
+    cursor: pointer;
+}
+
+.img1{
+    margin: 0px 20px;
+}
+
+footer ul li{
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+
+#footer .footer-menu{
+    display: flex;
+    justify-content: center;
+}
+
+#footer .footer-menu .footer-itens{
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 10px;
+    color: #8E8E8E;
+    margin-bottom: 70px;
+}
+
+#footer .footer-menu .footer-itens:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
